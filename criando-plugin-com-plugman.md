@@ -81,4 +81,9 @@ About to write to /home/acer-note/dev/pluginDemo/package.json:
 
 Is this OK? (yes) yes
 ```
+## Passo 7
+Criando um projeto `cordova`; para isso, execute o comando abaixo dentro da pasta `pluginDemo`:
+```
+cordova create HelloPlugin info.taffarel.helloplugin HelloPluginDemo
+```
 
