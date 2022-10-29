@@ -1,14 +1,20 @@
 # Criando um Plugin Customizado usando o Plugman
 
 ## Passo 1) 
-`mkdir pluginDemo`
+```
+mkdir pluginDemo
+```
 
 ## Passo 2)
+```
 cd pluginDemo
+```
 
 ## Passo 3)
 Verificar na linha de comando:
-`plugman create -help`
+```
+plugman create -help
+```
 
 ```shel 
 Create a plugin
@@ -23,6 +29,22 @@ Parameters:
 ## Passo 4)
 Execute o comando dentro da pasta `pluginDemo`
 
-`plugman create --name CordovaCustomPlugin --plugin_id info.androidtaffarel.plugins.custom --plugin_version 1.0.0`
+```
+plugman create --name CordovaCustomPlugin --plugin_id info.androidtaffarel.plugins.custom --plugin_version 1.0.0
+```
 
-Neste momento, será criada uma estrutura dentro da pasta pluginDemo
+Neste momento, será criada uma estrutura dentro da pasta `pluginDemo`: <br/>
+![Screenshot_20221029_130200](https://user-images.githubusercontent.com/7841603/198841393-d44f5807-d96b-47d3-9610-8fe995e9d527.png)
+
+Observe que ainda não há nada dentro da pasta `pluginDemo/CordovaCustomPlugin/src`.
+
+Mas não se preocupe, já essa pasta será preenchida com um arquivo.
+
+## Passo 5)
+### Habilitando o plugin dentro da pasta `pluginDemo/CordovaCustomPlugin`
+Execute os comandos respectivamente:
+```
+cd CordovaCustomPlugin && plugman platform add --platform_name android
+```
+
+
