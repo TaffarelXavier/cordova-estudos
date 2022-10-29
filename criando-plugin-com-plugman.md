@@ -86,4 +86,22 @@ Criando um projeto `cordova`; para isso, execute o comando abaixo dentro da past
 ```
 cordova create HelloPlugin info.taffarel.helloplugin HelloPluginDemo
 ```
+## Passo 8
+Mover o projeto `CordovaCustomPlugin` para dentro da pasta `HelloPlugin`;
+A estrutura será semelhante a esta:
+
+![Screenshot_20221029_132820](https://user-images.githubusercontent.com/7841603/198842586-de786743-e2fb-4ec0-aef6-d606dea4d276.png)
+
+## Passo 9)
+Adicionar a plataforma android ao projeto `HelloPlugin`.
+Para isso, execute o comando abaixo dentro da pasta `HelloPlugin`:
+```
+cd HelloPlugin && cordova platform add android
+```
+
+## Passo 10)
+Adicionando o plugin `CordovaCustomPlugin` ao projeto `HelloPlugin`
+```
+cd HelloPlugin && cordova plugin add CordovaCustomPlugin
+```
 
