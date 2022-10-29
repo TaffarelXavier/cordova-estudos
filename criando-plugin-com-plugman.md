@@ -104,4 +104,7 @@ Adicionando o plugin `CordovaCustomPlugin` ao projeto `HelloPlugin`
 ```
 cd HelloPlugin && cordova plugin add CordovaCustomPlugin
 ```
+A nova estrutura será semelhante a esta:
+![Screenshot_20221029_133506](https://user-images.githubusercontent.com/7841603/198842897-5530784a-be79-45f0-86e6-b9fc5b18c9ce.png)
+
 
