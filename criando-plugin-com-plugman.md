@@ -46,5 +46,39 @@ Execute os comandos respectivamente:
 ```
 cd CordovaCustomPlugin && plugman platform add --platform_name android
 ```
+## Passo 6)
+Dentro da pasta `pluginDemo`, execute este comando:
+```
+sudo plugman createpackagejson CordovaCustomPlugin/
+```
+```json
+name: (info.androidtaffarel.plugins.custom) 
+version: (1.0.0) 
+description: Plugin demonstrativo
+git repository: 
+author: Taffarel Xavier
+license: (ISC) 
+About to write to /home/acer-note/dev/pluginDemo/package.json:
 
+{
+  "name": "info.androidtaffarel.plugins.custom",
+  "version": "1.0.0",
+  "description": "Plugin demonstrativo",
+  "cordova": {
+    "id": "info.androidtaffarel.plugins.custom",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Taffarel Xavier",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+```
 
